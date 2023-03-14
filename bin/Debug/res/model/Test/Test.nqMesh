@@ -1,0 +1,14 @@
+Mesh{
+Vertex 3
+Polygon 1
+Indicies 0,1,2
+Data{
+    {
+        ID Mane
+        Color 255,150,66
+        Metal 255
+        Specular 255
+        Shinyness 0
+        Vertices -40,-40,0,40,40,0,40,-40,0
+    }
+}}

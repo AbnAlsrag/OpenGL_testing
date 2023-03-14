@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>SDL_WinRT_Path</title>
+  <style type="text/css">
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+</head>
+<body>
+<nav id="TOC">
+<ul>
+<li><a href="#draft">Draft</a></li>
+<li><a href="#sdl_winrt_path">SDL_WinRT_Path</a><ul>
+<li><a href="#values">Values</a></li>
+<li><a href="#version">Version</a></li>
+<li><a href="#related-functions">Related Functions</a></li>
+</ul></li>
+</ul>
+</nav>
+<h2 id="draft">Draft</h2>
+<p><strong>THIS PAGE IS A WORK IN PROGRESS</strong> ... Please make edits to this page to improve it!</p>
+<h1 id="sdl_winrt_path">SDL_WinRT_Path</h1>
+<p>An enumeration of WinRT / Windows Phone path types.</p>
+<h2 id="values">Values</h2>
+<table>
+<tbody>
+<tr class="odd">
+<td><p>SDL_WINRT_PATH_INSTALLED_LOCATION</p></td>
+<td><p>the installed app's root directory; files here are likely to be read-only</p></td>
+</tr>
+<tr class="even">
+<td><p>SDL_WINRT_PATH_LOCAL_FOLDER</p></td>
+<td><p>the app's local data store; files may be written here</p></td>
+</tr>
+<tr class="odd">
+<td><p>SDL_WINRT_PATH_ROAMING_FOLDER</p></td>
+<td><p>the app's roaming data store (unsupported on Windows Phone); files written here may be copied to other machines via a network connection</p></td>
+</tr>
+<tr class="even">
+<td><p>SDL_WINRT_PATH_TEMP_FOLDER</p></td>
+<td><p>the app's temporary data store (unsupported on Windows Phone); files written here may be deleted at any time</p></td>
+</tr>
+</tbody>
+</table>
+<h2 id="version">Version</h2>
+<p>This enumeration is available since SDL 2.0.3.</p>
+<h2 id="related-functions">Related Functions</h2>
+<dl>
+<dt></dt>
+<dd><a href="SDL_WinRTGetFSPathUNICODE.html" title="wikilink">SDL_WinRTGetFSPathUNICODE</a>
+</dd>
+<dd><a href="SDL_WinRTGetFSPathUTF8.html" title="wikilink">SDL_WinRTGetFSPathUTF8</a>
+</dd>
+</dl>
+<hr />
+<p><a href="CategoryEnum.html" title="wikilink">CategoryEnum</a>, <a href="CategorySystem.html" title="wikilink">CategorySystem</a>, <a href="CategoryDraft.html" title="wikilink">CategoryDraft</a></p>
+</body>
+</html>
